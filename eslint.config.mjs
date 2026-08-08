@@ -12,6 +12,8 @@ export default antfu({
   },
   ignores: [
     "**/*.yaml",
+    ".tanstack/**",
+    "src/routeTree.gen.ts",
   ],
 }, {
   files: ["**/*.{ts,tsx}"],
