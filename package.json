@@ -1,7 +1,7 @@
 {
   "name": "react-starter",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "packageManager": "pnpm@10.33.2",
   "engines": {
@@ -27,7 +27,7 @@
     "eslint": "^10.8.0",
     "eslint-plugin-format": "^2.0.1",
     "eslint-plugin-react-refresh": "^0.5.3",
-    "typescript": "^7.0.2",
+    "typescript": "^6.0.3",
     "vite": "^8.2.1"
   }
 }
