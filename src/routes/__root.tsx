@@ -1,9 +1,11 @@
 import { createRootRouteWithContext, HeadContent, Outlet, Scripts } from "@tanstack/react-router";
 import * as React from "react";
 
+import type { RouterContext } from "@/router";
+
 import appCss from "@/styles/global.css?url";
 
-export const Route = createRootRouteWithContext()({
+export const Route = createRootRouteWithContext<RouterContext>()({
   head: () => ({
     meta: [
       { charSet: "utf-8" },
