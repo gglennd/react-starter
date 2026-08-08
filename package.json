@@ -1,7 +1,7 @@
 {
   "name": "react-starter",
   "type": "module",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "private": true,
   "packageManager": "pnpm@10.33.2",
   "engines": {
