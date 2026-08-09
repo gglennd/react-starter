@@ -46,3 +46,7 @@ TanStack Start app (SSR): Vite 8 + React 19 + TypeScript. No `index.html`/`main.
 ## CI
 
 - `.github/workflows/ci.yaml`: `pnpm lint` + `pnpm build` on PRs and pushes to `main`.
+
+## Agent skills
+
+- The repo bundles TanStack Router/Start skills under `.agents/skills/` (`router-core`, `start-client-core`, `react-router`, `router-query`, etc.). They're pinned to the current APIs used here — load the matching skill before writing router, data-fetching, or server-function code.
